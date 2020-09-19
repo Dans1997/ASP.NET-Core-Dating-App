@@ -435,3 +435,6 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+DatingApp.API/appsettings.json
+DatingApp.API/bin/Debug/netcoreapp3.0/appsettings.json
