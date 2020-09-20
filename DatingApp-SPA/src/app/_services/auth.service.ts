@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 @Injectable({
@@ -11,7 +12,7 @@ import { map } from 'rxjs/operators';
 
     constructor(private http: HttpClient) { }
 
-    login(model: any) {
+    login(model: any): Observable<void> {
       return this.http.post(this.baseUrl + '/login', model)
       .pipe(
         map((response: any) => {
@@ -23,7 +24,7 @@ import { map } from 'rxjs/operators';
       );
     }
 
-    register(model: any) {
+    register(model: any): Observable<object> {
       return this.http.post(this.baseUrl + '/register', model);
     }
 }
