@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danil\\Desktop\\.NET Course\\dating-app\\DatingApp.API\\DatingApp.API.csproj": {}
+    "c:\\Users\\danil\\Desktop\\.NET Course\\dating-app\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danil\\Desktop\\.NET Course\\dating-app\\DatingApp.API\\DatingApp.API.csproj": {
+    "c:\\Users\\danil\\Desktop\\.NET Course\\dating-app\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danil\\Desktop\\.NET Course\\dating-app\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "c:\\Users\\danil\\Desktop\\.NET Course\\dating-app\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "C:\\Users\\danil\\Desktop\\.NET Course\\dating-app\\DatingApp.API\\DatingApp.API.csproj",
+        "projectPath": "c:\\Users\\danil\\Desktop\\.NET Course\\dating-app\\DatingApp.API\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danil\\Desktop\\.NET Course\\dating-app\\DatingApp.API\\obj\\",
+        "outputPath": "c:\\Users\\danil\\Desktop\\.NET Course\\dating-app\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -39,6 +39,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.8.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
